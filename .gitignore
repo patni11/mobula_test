@@ -1,0 +1,41 @@
+# General .gitignore
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+
+
+# Dependency directories
+node_modules/
+venv/
+env/
+*.env
+client/node_modules/
+server/node_modules/
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Editor-specific files
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
